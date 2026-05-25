@@ -1,9 +1,10 @@
 
 //This is the 0(n) approach. runtime = 0ms; memory = 30.4mb
+
 class Solution {
 public:
-    vector<int> sortedSquares(vector<int>& nums) {//[-7,-3,2,3]
-        vector<int> sq(nums.size()); //sq = [0,0,0,0,0]
+    vector<int> sortedSquares(vector<int>& nums) {
+        vector<int> sq(nums.size());
         
         int si = 0;
         int ei = nums.size()-1;
