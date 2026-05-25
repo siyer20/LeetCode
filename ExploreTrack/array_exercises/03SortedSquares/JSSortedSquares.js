@@ -8,7 +8,7 @@
 /*
 going to be a two pointer solution.
 the largest squares are going to be at either end of nums. this way
-we only need one pass to solve the problem, resulting in 0(n)
+we only need one pass to solve the problem, resulting in O(n)
 */
 
 var sortedSquares = function(nums) {
