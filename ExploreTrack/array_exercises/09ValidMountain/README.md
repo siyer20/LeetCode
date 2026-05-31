@@ -7,7 +7,7 @@ There exists some i with 0 < i < arr.length - 1 such that:
 arr[0] < arr[1] < ... < arr[i - 1] < arr[i]
 arr[i] > arr[i + 1] > ... > arr[arr.length - 1]
 
-<img src="09ValidMountain/images/valid_mountain_array.png" alt="Visual depiction of mountain array">
+<img src="/09ValidMountain/images/valid_mountain_array.png" alt="Visual depiction of mountain array">
 
 Example 1:
 Input: arr = [2,1]
